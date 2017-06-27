@@ -1,10 +1,3 @@
-#element{
-    background: -webkit-linear-gradient(left, red ,transparent, blue);
-    background: -o-linear-gradient(right, red ,transparent, blue);
-    background: -moz-linear-gradient(right, red ,transparent, blue);
-    background: linear-gradient(to right, red ,transparent, blue);
-}
-
 body, html {
     padding: 0;
     margin: 0;
@@ -17,6 +10,10 @@ body, html {
 body{
     display: flex;
     flex-direction: column;
+}
+
+a{
+    color: #9c58c9;
 }
 
 .container{
