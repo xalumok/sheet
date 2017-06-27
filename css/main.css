@@ -1,0 +1,138 @@
+#element{
+    background: -webkit-linear-gradient(left, red ,transparent, blue);
+    background: -o-linear-gradient(right, red ,transparent, blue);
+    background: -moz-linear-gradient(right, red ,transparent, blue);
+    background: linear-gradient(to right, red ,transparent, blue);
+}
+
+body, html {
+    padding: 0;
+    margin: 0;
+    height: auto;
+    background: linear-gradient(to bottom, rgba(230, 255, 255, 0.4) 1%, rgba(153, 255, 204, 0.5) 96%);
+    font-family: 'Raleway', sans-serif;
+    color: black;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    display: block;
+}
+
+
+.logo a{
+    margin-left: 10px;
+    margin-bottom: 17px;
+    float:left;
+    font-size: 42px;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+nav{
+    margin-top: 13px;
+    float: right;
+}
+
+nav a{
+    margin: 0 8px;
+    padding: 8px 25px;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #ccffff;
+}
+
+nav a:hover{
+ background-color: rgba(0,0,0,0);
+}
+
+.f-art{
+    margin-top: 20px;
+}
+
+.f-art h2{
+    font-size: 54px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.f-art {
+    font-style: italic;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.services article{
+    float: left;
+    width: 30%;
+    display: inline-block;
+}
+
+.serv-item{
+    margin: 0 16px 30px 16px;
+}
+
+.serv-item img{
+    float: left;
+    margin: 0 8px 8px 0;
+}
+
+.serv-item p{
+    font-size: 16px;
+}
+
+.serv-item a, .thrd a{
+    float: right;
+    font-size: 14px;
+}
+
+
+
+.thrd .one-of-three{
+    width: 33.33%;
+    float:left;
+}
+
+.thrd .two-of-three{
+    width: 60.66%;
+    float:left;
+    margin-right: 6%;
+}
+
+#id3{
+    margin-top: 25px;
+}
+
+footer{
+    font-size: 16px;
+    margin-top: 5px;
+    padding: 15px 0;
+}
+
+
+footer .fl_right{
+    float: right;
+}
+
+footer .fl_left{
+    float: left;
+}
+
+footer span{
+    margin-bottom: 20px;
+}
+
+hr{
+    height:1px;border-width:0;color:black;background-color:black
+}
+
