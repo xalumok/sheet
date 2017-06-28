@@ -112,14 +112,10 @@ nav a:hover{
     margin-right: 6%;
 }
 
-#id3{
-    margin-top: 25px;
-}
-
 footer{
     font-size: 16px;
     margin-top: 5px;
-    padding: 15px 0;
+    padding: 5px 0;
 }
 
 
@@ -132,11 +128,11 @@ footer .fl_left{
 }
 
 footer span{
-    margin-bottom: 20px;
+    margin: 20px 0;
 }
 
 hr{
-    height:1px;border-width:0;color:black;background-color:black
+    height:1px;border-width:0;color:black;background-color:black;
 }
 
 .articl h2{
