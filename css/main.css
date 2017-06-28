@@ -139,6 +139,30 @@ hr{
     height:1px;border-width:0;color:black;background-color:black
 }
 
+.articl h2{
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 54px;
+}
+
+.articl {
+    margin-top: 20px;
+    text-align: left;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.articl h3{
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+.articl p{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
 .clearfix:after {
     content: " "; /* Older browser do not support empty content */
     visibility: hidden;
