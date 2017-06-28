@@ -69,20 +69,20 @@ nav a:hover{
     margin-bottom: 50px;
 }
 
+.services{
+    margin: 0 -15px;
+    clear: both;
+}
+
 .services article{
 
     float: left;
     width: 33.33%;
     display: inline-block;
-    margin: 0 -15px;
-}
-
-.serv-item{
     padding: 0 15px;
+    box-sizing: border-box;
 
 }
-
-
 .serv-item img{
     float: left;
     margin: 0 8px 8px 0;
@@ -97,7 +97,9 @@ nav a:hover{
     font-size: 14px;
 }
 
-
+.thrd{
+    clear: both;
+}
 
 .thrd .one-of-three{
     width: 33.33%;
@@ -137,3 +139,10 @@ hr{
     height:1px;border-width:0;color:black;background-color:black
 }
 
+.clearfix:after {
+    content: " "; /* Older browser do not support empty content */
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
